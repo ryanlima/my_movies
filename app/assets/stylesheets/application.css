@@ -13,3 +13,71 @@
  *= require_tree .
  *= require_self
  */
+
+ html, body {
+    margin: 0;
+    padding: 0;
+    background: White;
+    color: DarkSlateGrey;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 10pt;
+  }
+  div#main {
+    margin: 0;
+    padding: 0 20px 20px;
+  }
+  a {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  h1 {
+    color: rgb(95, 75, 139);
+    font-size: 150%;
+    font-style: italic;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid DarkSlateGrey;
+  }
+  h1.title {
+    margin: 0 0 1em;
+    padding: 10px;
+    background-color: rgb(95, 75, 139);
+    color: white;
+    border-bottom: 4px solid black;
+    font-size: 2em;
+    font-style: normal;
+  }
+  table#movies {
+    margin: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 2px solid black;
+    color: white;
+  }
+  table#movies th {
+    border: 2px solid white;
+    font-weight: bold;
+    background-color: rgb(95, 75, 139);
+  }
+  table#movies th, table#movies td {
+    padding: 4px;
+    text-align: left;
+  }
+  table#movies td {
+    color: black;
+  }
+
+  #notice, #warning {
+    background: rgb(95, 75, 139);
+    margin: 1em 0;
+    padding: 4px;
+  }
+  form label {
+    display: block;
+    line-height: 25px;
+    font-weight: bold;
+    color: rgb(95, 75, 139);
+  }
+  
